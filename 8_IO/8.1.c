@@ -3,7 +3,7 @@
 using namespace std;
 
 istream& stream1(istream& stream){
-    char word;
+    string word;
     while(stream >> word){
         cout<<word<<endl;
     };
